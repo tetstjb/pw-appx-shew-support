@@ -3,7 +3,7 @@ component:
   name: pw-appx-shew-support
   type: service
   configuration:
-    runtime: nodejs18
+    runtime: python3.11
     build: auto
   endpoints:
     - name: dummy
