@@ -1,10 +1,9 @@
----
 component:
   name: pw-appx-shew-support
   type: service
   configuration:
-    runtime: python3.11
-    build: auto
+    runtime: python3.11  # Choreo will use Python 3.11 as the runtime
+    build: auto  # Automatically handles the build for the selected runtime
   endpoints:
     - name: dummy
       type: http
