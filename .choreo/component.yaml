@@ -1,0 +1,15 @@
+---
+component:
+  name: pw-appx-shew-support
+  type: service
+  configuration:
+    runtime: nodejs18
+    build: auto
+  endpoints:
+    - name: dummy
+      type: http
+      port: 8080
+      public: false
+  environment:
+    - name: NODE_ENV
+      value: production
